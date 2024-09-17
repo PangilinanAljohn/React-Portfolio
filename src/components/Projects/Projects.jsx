@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css'
-import viberr from '../../assets/folder-icon.svg'
+import folderIcon from '../../assets/folder-icon.svg'
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -10,28 +10,9 @@ const Projects = () => {
             </h1>
             <div className={styles.projectsContainer}>
                 <ProjectsCard
-                    src={viberr}
-                    url='https://github.com'
-                    title='Project Title'
-                    details='Project Detail'
-                />
-                <ProjectsCard
-                    src={viberr}
-                    url='https://github.com'
-                    title='Project Title'
-                    details='Project Detail'
-                />
-                <ProjectsCard
-                    src={viberr}
-                    url='https://github.com'
-                    title='Project Title'
-                    details='Project Detail'
-                />
-                <ProjectsCard
-                    src={viberr}
-                    url='https://github.com'
-                    title='Project Title'
-                    details='Project Detail'
+                    src={folderIcon}
+                    url='https://github.com/PangilinanAljohn/React-Playground'
+                    title='Adopt a Pet'
                 />
             </div>
         </section>
