@@ -12,7 +12,12 @@ const Projects = () => {
                 <ProjectsCard
                     src={folderIcon}
                     url='https://github.com/PangilinanAljohn/React-Playground'
-                    title='Adopt a Pet'
+                    title='Adopt a Pet Website'
+                />
+                <ProjectsCard
+                    src={folderIcon}
+                    url='https://github.com/PangilinanAljohn/MERN-Chat'
+                    title='Chat Application'
                 />
             </div>
         </section>
